@@ -5,7 +5,10 @@ git config --global user.email "your_email@domainname.com"
 
 ## clone to your local machine
 git clone git@github.com:your_username/the_project /local/dev/path  
-git remote add upstream <main repo>  
+or  
+git clone https://github.com/your_username/the_project.git  
+
+git remote add upstream https://github.com/<main_repo>/the_project.git  
 git remote -v
 
 ? git branch branch_name  
