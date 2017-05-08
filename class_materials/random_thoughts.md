@@ -9,8 +9,8 @@ git remote add upstream <main repo>
 git remote -v
 
 ? git branch branch_name  
-git checkout -b branch_name
-git branch -v
+git checkout -b branch_name  
+git branch -v  
 git checkout branch_name  
 git pull upstream <branch>  
 git commit -m 'hopefully relevant message about this commit'
